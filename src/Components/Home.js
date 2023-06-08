@@ -16,7 +16,7 @@ const Home = () => {
             Anything for family and close ones.
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Book Now <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">
