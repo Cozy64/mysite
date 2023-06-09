@@ -1,13 +1,13 @@
 import React from "react";
-import AboutBackgroundImage from "../Assets/kid.png";
+import Home2BackgroundImage from "../Assets/kid.png";
 
-const About = () => {
+const Home2 = () => {
   return (
-    <div className="about-section-container">
-      <div className="about-section-image-container">
-        <img src={AboutBackgroundImage} alt="" />
+    <div className="home2-section-container">
+      <div className="home2-section-image-container">
+        <img src={Home2BackgroundImage} alt="" />
       </div>
-      <div className="about-section-text-container">
+      <div className="home2-section-text-container">
         <h1 className="primary-heading">
 	  		Risk free	
         </h1>
@@ -17,7 +17,7 @@ const About = () => {
         <p className="primary-text">
 	  		Refunds available for unsatisfied customers.
         </p>
-        <div className="about-buttons-container">
+        <div className="home2-buttons-container">
           <button className="secondary-button">Learn More</button>
         </div>
       </div>
@@ -25,4 +25,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home2;
