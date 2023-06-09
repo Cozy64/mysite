@@ -36,7 +36,7 @@ const Navbar = () => {
       icon: <PhoneRoundedIcon />,
     },
     {
-      text: "Cart",
+      text: "Bookings",
       icon: <ShoppingCartRoundedIcon />,
     },
   ];
@@ -50,7 +50,7 @@ const Navbar = () => {
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button">Sign up</button>
+        <button className="primary-button">Sign in</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

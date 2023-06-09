@@ -17,12 +17,8 @@ img {
 body {
   max-width: 100%;
   overflow-x: hidden;
-}
-
-body {
   background-color: #dbdbdb;
 }
-
 nav {
   display: flex;
   align-items: center;
@@ -116,4 +112,24 @@ nav {
 }
 .secondary-button:hover {
   background-color: #666666;
+}
+
+@media (max-width: 800px) {
+  .nav-logo-container {
+    max-width: 140px;
+  }
+  .navbar-links-container {
+    display: none;
+  }
+  .navbar-menu-container {
+    display: flex;
+  }
+  .home-bannerImage-container {
+    max-width: 450px;
+  }
+  .home-banner-container{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
 }
