@@ -24,15 +24,15 @@ const Navbar = () => {
       icon: <HomeIcon />,
     },
     {
-      text: "About",
+      text: "Contact",
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Reviews",
       icon: <CommentRoundedIcon />,
     },
     {
-      text: "Contact",
+      text: "About",
       icon: <PhoneRoundedIcon />,
     },
     {
