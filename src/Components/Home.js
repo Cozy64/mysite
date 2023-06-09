@@ -10,7 +10,7 @@ const Home = () => {
       <div className="home-banner-container">
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Find the care you need in a single click.
+            Find the care you need in a single click
           </h1>
           <p className="primary-text">
             Anything for family and close ones.
